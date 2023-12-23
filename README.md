@@ -108,10 +108,9 @@ Usually the `git commit`  command, opens an editor for us to enter a message , w
 Merges the files that are fetched to current local branch
 ### Pull
 
-Pull will do two commands at once, that is Fetch + Merge
+Pull will do two commands at once, that is Fetch + Merge, it merges the changes but it doesnt add a separate merge commit
 
-### Fetch
-
+its best to do a pull before push and use fetch when you only want info from remote but sure merging it with your local branch
 
 ### Add Remote 
 `git remote add origin <remote hosted repo url that ends with .git>`
