@@ -101,12 +101,23 @@ Usually the `git commit`  command, opens an editor for us to enter a message , w
 ### PUSH
 
 #### force push 
+### Fetch
+- Only fetches the tracking information from Remote and stores in local for comparision but automatically merge it with corresponding local branch
+### Merge
 
+Merges the files that are fetched to current local branch
 ### Pull
+
+Pull will do two commands at once, that is Fetch + Merge
+
+### Fetch
+
 
 ### Add Remote 
 `git remote add origin <remote hosted repo url that ends with .git>`
 
 where `git remote add` is the command , `origin` is the name(varaible ) for the remote we assigned , it can be anything. we need to give this name to remote because we can add multiple remotes. 
+
+
 
 
