@@ -31,6 +31,8 @@ To push the files to a remote (a server where our source code is hosted/stored) 
 
 ### Clone
 
+	`git clone` is used to clone a remote repository
+
 ### Initialization:
 `git init` is used to Initialize an empty Git repository in current directory. 
 - It'll create a directory called `.git` in my current directory. 
