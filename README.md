@@ -29,6 +29,8 @@ To push the files to a remote (a server where our source code is hosted/stored) 
 ### Help
  `git --help` is used to get a description of all the major commands of git
 
+### Clone
+
 ### Initialization:
 `git init` is used to Initialize an empty Git repository in current directory. 
 - It'll create a directory called `.git` in my current directory. 
@@ -93,4 +95,18 @@ Usually the `git commit`  command, opens an editor for us to enter a message , w
 ### List Branches
 
  `git branch -a` is used to list all branches available locally
+
+
+
+### PUSH
+
+#### force push 
+
+### Pull
+
+### Add Remote 
+`git remote add origin <remote hosted repo url that ends with .git>`
+
+where `git remote add` is the command , `origin` is the name(varaible ) for the remote we assigned , it can be anything. we need to give this name to remote because we can add multiple remotes. 
+
 
