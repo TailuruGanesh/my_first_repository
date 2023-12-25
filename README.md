@@ -1,19 +1,23 @@
 
 ## What is GIT ?
 Git is an Open Source tool for tracking my files in the project repository.  Its one of the Version Control Systems (VSC). Its used for Source Code management. 
-
 ## What is GITHUB?
-TODO, how is it related to GIT
-
-
+GitHub is a web-based platform for software development that allows users to store, track, and collaborate on software projects.
+### How GITHUB is related to GIT?
+Git is responsible for everything GitHub-related that happens locally on your computer. GIT is a vcs which is the key for github.
 ### GITHUB Alternatives
-TODO atleast 4
-
+- Git Lab
+- Bit Bucket
+- Gitea
+- SourceForge
+- Beanstalk
 ### GIT Alternatives
 TODO , its a VCS 2
-
-
-
+- Mercurial
+- Bazzar
+- Fossil
+- Subversion
+- Force
 ## GIT Configuration:
 
 To track who did the changes to the files, so we need to set Git username, email. 
@@ -118,7 +122,4 @@ its best to do a pull before push and use fetch when you only want info from rem
 `git remote add origin <remote hosted repo url that ends with .git>`
 
 where `git remote add` is the command , `origin` is the name(varaible ) for the remote we assigned , it can be anything. we need to give this name to remote because we can add multiple remotes. 
-
-
-
 
