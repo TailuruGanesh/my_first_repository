@@ -60,13 +60,6 @@ To push the files to a remote (a server where our source code is hosted/stored) 
 #### Add All Files that are new or has changes
 `git add .`  or `git add -A`  where -A is for ALL
 
-
-
-
-
-
-
-
 ### Commit
 
 `git commit` is used to commit files with changes to a repository.
@@ -77,8 +70,6 @@ For example, I wrote a program which has 5 steps, I completed my program till 3r
 
 Usually the `git commit`  command, opens an editor for us to enter a message , we can skip this two step process by adding the message to `git commit` command like
 	`git commit -m 'Message_HERE'` . 
-
-
 
 ### History (Log)
 `git log` is used to see changes in the git repository
