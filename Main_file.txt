@@ -1,3 +1,0 @@
-MY Line 1
-LIne 2 # TEXT_NEW
-# STEP_5 TESTED
